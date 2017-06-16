@@ -9,7 +9,10 @@
          <h1>Postal Rate Calculation</h1>
          <hr/>
          <br/>
-         <p>It would cost $<%= cost %> to send a <%= weight %> pound <%= type %>.</p>
+         <p>It would cost $<%= cost.toFixed(2) %> to send a <%= weight %>oz <%= type %>.</p>
       </div>
+      <button type="button" onclick="window.location.href='form.html'">
+         Return to Calculator
+      </button>
    </body>
 </html>
