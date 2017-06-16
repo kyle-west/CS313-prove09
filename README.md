@@ -1,4 +1,4 @@
-# node-js-getting-started
+# CREATED FROM node-js-getting-started
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
